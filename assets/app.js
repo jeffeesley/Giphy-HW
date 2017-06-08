@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
 	// Populating the list, just put a few things in there
-	var topics = ["baseball", "football", "basketball", "good times"];
+	var topics = ["baseball", "football", "basketball", "good times", "jquery"];
 	var topic = $("#gif-input").val();
 	// queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&limit=10&api_key=dc6zaTOxFJmzC";	
 	// They put this here in the movie app example, but it seems
